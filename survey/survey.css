@@ -1,0 +1,72 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 0;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg,rgba(195, 195, 228,0.5),rgba(136, 136, 231,0.7)), url('https://www.insidehighered.com/sites/default/files/styles/max_650x650/public/media/finally%20survey.jpg?itok=n_h6_8ZI');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .header {
+    text-align: center;
+    padding: 0 12px;
+    margin-bottom: 30px;
+  }
+  header {
+    display: block;
+  }
+  #survey-form {
+    max-width: 750px;
+    width: 60%;
+    margin: auto;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0,0.7);
+    border: 2px solid white;
+    padding: 0 30px;
+    color: white;
+  }
+  .form-divs {
+    margin: auto;
+  }
+  label {
+    font-size: 16px;
+    display: block;
+  }
+  .form-inputs {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    background-color: white;
+  }
+  option {
+    background-color: white;
+  }
+  input[type="submit"] {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: rgb(47, 173, 47);
+  }
+  input[type="submit"]:hover {
+    background-color: rgb(202, 62, 62);
+    cursor: pointer;
+  }
+  #comment {
+    width: 100%;
+    height: 80px;
+  }
